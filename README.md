@@ -10,3 +10,55 @@ Requirement.
 3. [VS Code IDE](https://code.visualstudio.com/download)
 4. [GIT cli](https://git-scm.com/downloads)
 
+
+Creating conda enviroment
+'''
+conda create -p <enviroment_name> python==3.7 -y
+-p 
+'''
+conda activate venv/
+'''
+conda activate venv
+'''
+installing requirement
+'''
+
+pip install -r rpip install -r requirements.txt
+'''
+To add files to git 
+'''
+
+git add <file_name>
+'''
+Note: To ignore file or folder in git then we can write the name of file/folder name in git 
+'''
+
+To check git status
+'''
+git status 
+'''
+
+To check diferent version of file 
+'''
+git log 
+'''
+
+To create version/commit all change to git 
+'''
+
+git commit -m "message"
+'''
+
+To send version changes to github
+'''
+
+git push origin main 
+'''
+To check remote url 
+'''
+
+git remote -v
+'''
+
+
+
