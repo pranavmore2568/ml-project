@@ -13,10 +13,10 @@ def get_requirements_list()->List[str]:
     """
 
     with open(REQUIREMENT_FILE_NAME) as requirement_file:
-        return requirement_file.readlines()
+        return requirement_file.readlines().remove("-e .")
 
 PROJECT_NAME = "housing-predictor"
-VERSION = "0.0.0.1"
+VERSION = "0.0.0.2"
 AUTHOR = "Avinash Yadav" 
 DESCRIPTION = "This is a first FSDS machine learning project"
 PACKAGES=["housing"]

@@ -98,3 +98,5 @@ To stop docker image
 docker stop <container_id>
 '''
 
+python setup.py install'''
+
